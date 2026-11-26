@@ -1,1 +1,17 @@
-{"name":"KIRAYA CHAT","short_name":"KIRAYA","start_url":"/","display":"standalone","background_color":"#0b0b0f","theme_color":"#0b0b0f"}
+{
+  "name": "KIRAYA Chat",
+  "short_name": "KIRAYA Chat",
+  "description": "Create Your Own Story",
+  "start_url": "/home",
+  "display": "standalone",
+  "background_color": "#0B0914",
+  "theme_color": "#0B0914",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
