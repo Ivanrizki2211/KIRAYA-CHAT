@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="kirayaFavGrad" x1="6" y1="6" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="55%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="42" height="42" rx="14" fill="#1C1633" stroke="url(#kirayaFavGrad)" stroke-width="2.2"/>
+  <path d="M15 14V34M15 24L27 14M18.5 21.2L29.5 34" stroke="url(#kirayaFavGrad)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34.5 11.5L35.7 14.8L39 16L35.7 17.2L34.5 20.5L33.3 17.2L30 16L33.3 14.8L34.5 11.5Z" fill="#F472B6"/>
+</svg>
