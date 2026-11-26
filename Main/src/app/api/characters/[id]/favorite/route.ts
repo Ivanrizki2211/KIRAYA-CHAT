@@ -1,1 +1,0 @@
-// TODO: Toggle character favorite.
