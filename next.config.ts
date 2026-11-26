@@ -1,3 +1,10 @@
+// next.config.ts
 import type { NextConfig } from "next";
-const nextConfig: NextConfig = {};
+
+const nextConfig: NextConfig = {
+  images: {
+    unoptimized: true,
+  },
+};
+
 export default nextConfig;
