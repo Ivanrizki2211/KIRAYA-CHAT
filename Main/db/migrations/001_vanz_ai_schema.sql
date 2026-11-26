@@ -1,0 +1,1 @@
+-- TODO: Define the KIRAYA CHAT PostgreSQL schema and constraints.
