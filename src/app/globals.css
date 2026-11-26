@@ -1,1 +1,50 @@
-/* TODO: Add global styles and design tokens. */
+/* src/app/globals.css */
+@import "tailwindcss";
+
+@theme {
+  --color-kiraya-violet: #8B5CF6;
+  --color-kiraya-pink: #EC4899;
+  --color-kiraya-sky: #60A5FA;
+  --color-kiraya-rose: #F472B6;
+  --color-bg-midnight: #0B0914;
+  --color-bg-surface: #141024;
+  --color-bg-card: #1C1633;
+  --color-text-primary: #FFFFFF;
+  --color-text-muted: #C4B5FD;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: #0B0914;
+    color: #FFFFFF;
+    font-family: "Plus Jakarta Sans", "Noto Sans JP", system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .kiraya-card {
+    background-color: #1C1633;
+    border: 1px solid rgba(139, 92, 246, 0.28);
+    box-shadow: 0 12px 32px rgba(11, 9, 20, 0.72), 0 0 0 1px rgba(244, 114, 182, 0.06) inset;
+    transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+  }
+
+  .kiraya-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(236, 72, 153, 0.6);
+    box-shadow: 0 16px 38px rgba(139, 92, 246, 0.2), 0 0 24px rgba(236, 72, 153, 0.16);
+  }
+
+  .kiraya-btn-primary {
+    background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+    color: #FFFFFF;
+    font-weight: 700;
+    transition: opacity 150ms ease, transform 150ms ease, box-shadow 150ms ease;
+  }
+
+  .kiraya-btn-primary:hover {
+    opacity: 0.96;
+    box-shadow: 0 8px 24px rgba(236, 72, 153, 0.35);
+  }
+}
